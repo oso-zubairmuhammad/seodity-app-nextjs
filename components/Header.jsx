@@ -69,7 +69,7 @@ export default function Header() {
         </ul>
         <div className="order-3 lg:flex gap-x-8 items-center justify-end">
           <div className="flex items-center gap-x-2">
-            <p className="font-rubikRegular">kowalski@gmail</p>
+            <p className="font-rubikRegular ">kowalski@gmail</p>
             <img
               className="w-2 h-2"
               src={"/icons/down-arrow-icon.svg"}
@@ -92,7 +92,7 @@ export default function Header() {
           <img src={"/images/navbar-logo.png"} alt="navbar logo" />
 
           <div className="flex md:gap-x-1 items-center justify-end">
-            <div className="flex items-center gap-x-2">
+            <div className="md:flex hidden items-center gap-x-2">
               <p className="font-rubikRegular">kowalski@gmail</p>
               <img
                 className="w-2 h-2"
