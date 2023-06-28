@@ -9,7 +9,6 @@ export default function Tabs() {
           <h1>Projects</h1>
           <h1>Resources</h1>
           <h1>
-            <Link href={"/events"}>Events</Link>
             <Link href={"#"}>Events</Link>
           </h1>
           <h1>Invoices</h1>
