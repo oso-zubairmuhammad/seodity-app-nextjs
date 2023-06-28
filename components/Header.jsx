@@ -91,9 +91,9 @@ export default function Header() {
         <div className="lg:order-1 order-1 flex justify-between w-full">
           <img src={"/images/navbar-logo.png"} alt="navbar logo" />
 
-          <div className="flex md:gap-x-1 items-center justify-end">
-            <div className="flex items-center gap-x-2">
-              <p className="font-rubikRegular">kowalski@gmail</p>
+          <div className="md:gap-x-3 flex items-center justify-end">
+            <div className="md:flex hidden items-center gap-x-2">
+              <p className="font-rubikRegular ">kowalski@gmail</p>
               <img
                 className="w-2 h-2"
                 src={"/icons/down-arrow-icon.svg"}
