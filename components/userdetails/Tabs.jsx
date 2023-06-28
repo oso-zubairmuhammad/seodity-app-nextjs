@@ -15,7 +15,7 @@ export default function Tabs() {
           <h1>Settings</h1>
         </div>
 
-        <div className="pb-7 md:block text-center">
+        <div className="md:block md:pb-7 pb-3 text-center">
           <Link
             className="bg-[#E0EDF6] rounded-lg text-[#2586B9] px-4 py-3 text-sm font-semibold font-rubikRegular"
             href={"#"}
