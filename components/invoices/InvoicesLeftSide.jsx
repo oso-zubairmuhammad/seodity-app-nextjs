@@ -7,7 +7,7 @@ export default function InvoicesLeftSide() {
         <p>Invoices</p>
       </div>
       <h1 className="text-3xl font-semibold pt-2 pb-3 ">Invoices</h1>
-      <div className="flex items-center bg-[#F7F8FC] rounded-md shadow md:w-full w-2/5">
+      <div className="flex items-center bg-[#F7F8FC] rounded-md shadow md:w-full w-64">
         <div className="flex items-center border-r border-zinc-400 p-2 gap-2">
           <img
             className="w-3 h-4"
@@ -24,13 +24,6 @@ export default function InvoicesLeftSide() {
           />
         </div>
       </div>
-      {/* <div className="">
-          <img
-            className="py-5 px-5 bg-[#05BDD2] rounded-2xl"
-            src={"/icons/add-icon-btn.svg"}
-            alt="add icon"
-          />
-        </div> */}
     </div>
   );
 }

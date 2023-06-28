@@ -3,7 +3,7 @@ import UserDetailsCard from "./UserDetailsCard";
 
 export default function UserDetailsRightSide() {
   return (
-    <div className="xl:flex  grid lg:grid-cols-3 grid-cols-2 gap-x-9 gap-y-5  pt-10 pr-10">
+    <div className="xl:flex grid lg:grid-cols-3 grid-cols-2 gap-x-9 gap-y-5  pt-10 pr-10">
       <UserDetailsCard
         icon="/icons/diamond-icon.svg"
         number="Gold"
