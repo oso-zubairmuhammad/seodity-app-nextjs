@@ -9,7 +9,7 @@ export default function userdetails() {
   return (
     <div>
       <Header />
-      <div className="flex items-center justify-between">
+      <div className="md:flex grid grid-cols-1 items-center justify-between">
         <UserDetailsLeftSide />
         <UserDetailsRightSide />
       </div>

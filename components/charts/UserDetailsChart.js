@@ -26,7 +26,7 @@ export default function UserDetailsChart() {
         <div >
             {/* Bar chart */}
 
-            <canvas className='px-10 py-5' width={80} height={20} id='myChart4'></canvas>
+            <canvas className='md:px-10 px-0 md:py-5 py-0' width={80} height={20} id='myChart4'></canvas>
 
         </div>
     )

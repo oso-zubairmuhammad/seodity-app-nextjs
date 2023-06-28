@@ -7,7 +7,7 @@ export default function InvoicesLeftSide() {
         <p>Invoices</p>
       </div>
       <h1 className="text-3xl font-semibold pt-2 pb-3 ">Invoices</h1>
-      <div className="flex items-center bg-[#F7F8FC] rounded-md shadow">
+      <div className="flex items-center bg-[#F7F8FC] rounded-md shadow md:w-full w-2/5">
         <div className="flex items-center border-r border-zinc-400 p-2 gap-2">
           <img
             className="w-3 h-4"

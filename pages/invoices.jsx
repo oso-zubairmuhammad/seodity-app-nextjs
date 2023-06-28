@@ -8,7 +8,7 @@ export default function invoices() {
   return (
     <div>
       <Header />
-      <div className="flex justify-between">
+      <div className="md:flex grid grid-cols-1 justify-between">
         <InvoicesLeftSide />
         <InvoicesRightSide />
       </div>

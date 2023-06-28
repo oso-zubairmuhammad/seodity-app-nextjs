@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function InvoicesRightSide() {
   return (
-    <div className="pt-8 pr-10 flex flex-col items-end">
+    <div className="flex pt-8 pr-10  flex-col items-end">
       <Card
         number="6"
         name="All invoices"
