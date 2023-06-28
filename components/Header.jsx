@@ -4,7 +4,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <div className="lg:flex hidden justify-between items-center py-3 px-11 flex-wrap">
+      <div className="lg:flex hidden justify-between items-center py-3 px-10 flex-wrap">
         <img
           className="order-1"
           src={"/images/navbar-logo.png"}
@@ -67,7 +67,7 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-        <div className="order-3 lg:flex flex gap-x-8 items-center justify-end">
+        <div className="order-3 lg:flex gap-x-8 items-center justify-end">
           <div className="flex items-center gap-x-2">
             <p className="font-rubikRegular">kowalski@gmail</p>
             <img
@@ -87,11 +87,11 @@ export default function Header() {
       </div>
 
       {/* duplicate header */}
-      <div className="lg:hidden flex justify-between items-center py-3 px-11 flex-wrap">
+      <div className="lg:hidden md:flex justify-between items-center py-3 flex-wrap">
         <div className="lg:order-1 order-1 flex justify-between w-full">
           <img src={"/images/navbar-logo.png"} alt="navbar logo" />
 
-          <div className="lg:flex flex gap-x-8 items-center justify-end">
+          <div className="flex md:gap-x-1 items-center justify-end">
             <div className="flex items-center gap-x-2">
               <p className="font-rubikRegular">kowalski@gmail</p>
               <img
